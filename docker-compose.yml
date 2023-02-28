@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+    postgres:
+        container_name: wepynaire_deploiement_postgres_51134_container
+        image: postgres:latest
+        working_dir: /app
+        restart: always
+        ports:
+            - "51134:5432"
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: postgres
+            POSTGRES_DB: postgres
+        volumes:
+            - "postgres_wepynaire_deploiement_51134:/var/lib/postgresql"
+
+volumes:
+    postgres_wepynaire_deploiement_51134:
