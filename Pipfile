@@ -16,3 +16,4 @@ django-markdownify = "*"
 pygments = "*"
 pillow = "*"
 
+[dev-packages]

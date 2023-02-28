@@ -7,5 +7,5 @@ Le projet herbergé dana ce dépôt a servi de support au WePynaire que j'ai don
 3. Activer l'environnement virtuel avec la commande `pipenv shell`
 4. Exécuter les migrations à l'aide de la commande `python manage.py migrate`
 5. Créer un superutilisateur à l'aide de la commande `python manage.py createsuperuser`. Répondre aux questions posées.
-6. Charger les données de test à l'aide de `python loaddata tips`
+6. Charger les données de test à l'aide de `python manage.py loaddata tips`
 
